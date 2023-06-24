@@ -16,7 +16,7 @@ public class CtoF {
         } while (celsiusTemp < -273.15);
 
         double fahrTemp = celsiusTemp * 9 / 5 + 32;
-        System.out.printf("%.2f°C is equal to %.2f°F.", celsiusTemp, fahrTemp);
+        System.out.printf(celsiusTemp + "°C is equal to " + fahrTemp + "°F.");
 
         scanner.close();
     }
